@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/addMovies.css" />
+	</head>
+	<body >
+		<header><h1>电影票修改操作</h1></header>
+		<article>
+			<form action="javascript:void(0)">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">修改已保存的电影</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="id">编号</td>
+							<td class="get-id">
+								<input type="number" name="id" required="required"/>
+							</td>
+						</tr>
+							<tr>
+								<td>电影名</td>
+								<td>
+									<input type="text" name="movName" required="required"/>
+								</td>							
+							</tr>
+							<tr>
+								<td>价格/张</td>
+								<td>
+									<input type="number" name="price" required="required"/>
+								</td>
+							</tr>
+							<tr>
+								<td>播放时间</td>
+								<td>
+									<input type="text" name="playTime" required="required"/>
+								</td>				
+							</tr>						
+							<tr>
+								<td>播放地点</td>
+								<td>
+									<input type="text" name="seat" required="required"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<!--<input type="submit" value="提交" />-->
+									<button>提交</button>
+									<button><a href="showPage.html">返回</a></button>
+								</td>
+							</tr>
+					</tbody>
+				</table>
+			</form>
+		</article>
+		<footer>
+		     <small>
+		            	 更新时间 <span>2016</span> - <span>10</span> - <span>31</span>
+		     </small>
+		</footer>
+	</body>
+	<script src="js/jquery-2.1.4/jquery.min.js"></script>
+	<script src="js/db.js"></script>
+	<script src="js/alter.js"></script>
+</html>

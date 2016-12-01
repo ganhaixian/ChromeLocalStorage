@@ -1,0 +1,51 @@
+header{
+	text-align: center;
+}
+
+#search{
+	margin: auto;
+	width: 320px;
+}
+#search-one{
+	width: 210px;	
+	line-height: 20px;
+	border-radius: 4%;	
+	
+}
+#search-one:focus{
+	border-color:green;	
+}
+table{
+	width: 600px;
+	line-height: 32px;
+	border-collapse: collapse;
+	margin: auto;
+	background-color: antiquewhite;
+}
+table th,td{
+ 	border: 1px solid darkgrey;
+   /* width: 20%;*/
+    text-align: center;
+ }
+.button-edict{
+	width: 500px;
+	text-align: center;
+	margin: auto;		
+}
+.button-edict button{
+	width: 80px;
+	line-height: 20px;
+	margin-top: 12px;
+	
+}
+.button-edict button,a,#search button{
+	text-decoration: none;
+	font-family:"微软雅黑","宋体",serif ;
+	font-size: 16px;
+	color:darkolivegreen;
+}
+footer{
+	width: 500px;
+	margin: 70px auto;
+	text-align: center;
+}

@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding:0;
+}
+header{
+	text-align: center;
+}
+table{
+	width: 600px;
+	border-collapse: collapse;
+	margin:auto;
+	background-color: antiquewhite;
+}
+table th,td{
+	border:1px solid darkgray;
+	text-align: center;
+	line-height: 30px;
+}
+
+#id{
+	width: 30%;
+	
+}
+
+table input{
+	width: 260px;
+	line-height: 20px;
+	border-radius: 4px;
+	
+}
+table button,a{
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	color: brown;
+}
+footer{
+	width: 600px;
+	margin: 70px auto;
+	text-align: center;
+}
